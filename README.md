@@ -23,7 +23,7 @@ water_dataset/
 Week 2
 ## . Model Architecture
 
-We built a simple, sequential CNN from scratch to learn the fundamentals of image classification.
+Built a simple, sequential CNN from scratch to learn the fundamentals of image classification.
 
 The architecture is as follows:
 
