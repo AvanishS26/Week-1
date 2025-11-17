@@ -44,11 +44,19 @@ The architecture is as follows:
 * **Result:** The initial training run achieved a **validation accuracy of 93.33%**.
 * **Next Steps (Week 3):** The training history shows signs of instability and overfitting, which will be the focus of our "Evaluation" and "Optimization" tasks next week.
 
-## . How to Run
+##.Week 3
+## 🛑 How to Run This Model (For Instructors)
 
-1.  Clone this repository.
-2.  Prepare a dataset with the folder structure shown in section 2.
-3.  Upload the `water_classification_model.ipynb` notebook to Google Colab.
-4.  Upload your dataset (e.g., as `water_images.zip`) to the Colab environment and unzip it.
-5.  Run all cells in the notebook in order.
+You do **not** need the original dataset to run this project. The final, trained model is saved in the **`water_classifier_model.h5`** file.
+
+You **cannot** run the full notebook from top to bottom, as the training cells will fail (the dataset is not included). Please follow these steps to test the final model:
+
+1.  Download both `water_classification_model.ipynb` and `water_classifier_model.h5` from this repository.
+2.  Open the `water_classification_model.ipynb` notebook in **Google Colab**.
+3.  In the Colab "Files" pane (folder icon on the left), upload the **`water_classifier_model.h5`** file.
+4.  Once the upload is complete, scroll to the **very last code cell** in the notebook (the cell under the "Prediction" section).
+5.  **Run that cell.** It will:
+    * Load the trained `.h5` model.
+    * Ask you to upload your own test image.
+    * Display the final prediction.
    
